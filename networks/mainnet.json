@@ -1,37 +1,20 @@
 {
-  "title": "ARK Explorer",
-  "server": "https://explorer.ark.io/api",
+  "title": "bc1 Mainnet Explorer",
+  "server": "http://127.0.0.1:4003/api/v2",
   "alias": "Main",
-  "activeDelegates": 51,
-  "rewardOffset": 75600,
-  "currencies": {
-    "AUD": "A$",
-    "BRL": "R$",
-    "BTC": "Ƀ",
-    "CAD": "C$",
-    "CHF": "CHF",
-    "CNY": "¥",
-    "ETH": "Ξ",
-    "EUR": "€",
-    "GBP": "£",
-    "JPY": "¥",
-    "KRW": "₩",
-    "LTC": "Ł",
-    "NZD": "N$",
-    "RUB": "₽",
-    "USD": "$"
-  },
+  "activeDelegates": "7",
+  "rewardOffset": "1",
+  "currencies": [],
   "defaults": {
-    "token": "ARK",
-    "symbol": "Ѧ",
-    "currency": {
-      "name": "USD",
-      "symbol": "$"
-    },
+    "token": "TT",
+    "symbol": "QNT",
+    "currency": null,
     "priceChartOptions": {
       "enabled": true,
       "period": "day",
       "type": "price"
-    }
-  }
+    },
+    "priceChart": false
+  },
+  "knownWallets": {}
 }

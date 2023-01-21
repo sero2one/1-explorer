@@ -1,18 +1,20 @@
 {
-  "title": "DARK Explorer",
-  "server": "https://dexplorer.ark.io/api",
+  "title": "bc1 Devnet Explorer",
+  "server": "http://127.0.0.1:4003/api/v2",
   "alias": "Development",
-  "activeDelegates": 51,
-  "rewardOffset": 10800,
+  "activeDelegates": "7",
+  "rewardOffset": "1",
   "currencies": [],
   "defaults": {
-    "token": "DARK",
-    "symbol": "DѦ",
+    "token": "TT",
+    "symbol": "QNT",
     "currency": null,
     "priceChartOptions": {
       "enabled": false,
       "period": "day",
       "type": "price"
-    }
-  }
+    },
+    "priceChart": false
+  },
+  "knownWallets": {}
 }
